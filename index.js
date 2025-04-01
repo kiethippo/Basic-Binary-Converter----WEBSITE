@@ -4,6 +4,8 @@ const hexInput = document.getElementById("hex");
 
 const submitBtn = document.getElementById("submitbtn");
 const resetBtn = document.getElementById("resetbtn");
+
+/*
 // tạo OpenWhisk Action //
 function main(params) {
   const input = params.input;
@@ -108,10 +110,11 @@ document.getElementById("resetbtn").addEventListener("click", function () {
   document.getElementById("input").value = "";
   document.getElementById("Output").value = "";
 });
+*/
 
 
 
-/* ---------------------------Code Giao Diện mới hoạt động độc lập----------------------------
+// ---------------------------Code Giao Diện mới hoạt động độc lập----------------------------
 document.getElementById("submitbtn").addEventListener("click", function () {
     const fromBase = document.querySelectorAll("select")[0].value;
     const toBase = document.querySelectorAll("select")[1].value;
@@ -183,7 +186,7 @@ document.getElementById("submitbtn").addEventListener("click", function () {
     document.getElementById("Output").value = "";
   });
 
-  */
+
   
 
 /*//---------------------------Code Giao Diện cũ hoạt động độc lập----------------------------
